@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.primaryColor{
+    color: #6FB72F;
+}
+.primaryBtn{
+    background: #6FB72F;
+    border-radius: 8px;
+}

@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "image": "https://via.placeholder.com/400x300",
+      "projectName": "E-Learn",
+      "description": "Developed a full-stack online study collaboration platform where tutors can post sessions, which are approved and priced by admins. Students can enroll in sessions, with free sessions requiring no payment and paid sessions routing students through Stripe for secure payment processing. Tutors and admins can upload, edit, and delete session materials, which are accessible to enrolled students. Students can take, edit, and delete notes, which are displayed on their personalized dashboards.",
+      "link": "https://example.com/project1"
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/400x300",
+      "projectName": "Project 2",
+      "description": "A task management app with real-time collaboration features.",
+      "link": "https://example.com/project2"
+    },
+    {
+      "id": 3,
+      "image": "https://via.placeholder.com/400x300",
+      "projectName": "Project 3",
+      "description": "A portfolio website showcasing my skills and projects.",
+      "link": "https://example.com/project3"
+    },
+    {
+      "id": 4,
+      "image": "https://via.placeholder.com/400x300",
+      "projectName": "Project 4",
+      "description": "A blog platform with user authentication and CRUD functionality.",
+      "link": "https://example.com/project4"
+    }
+  ]
