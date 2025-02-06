@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui";
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* fonts */
+.outfit {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.ovo {
+    font-family: "Ovo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .primaryColor{
+    /* color: #e4ffce; */
     color: #6FB72F;
 }
 .primaryBtn{
     background: #6FB72F;
     border-radius: 8px;
+    color: white;
+}
+
+.glassEffect{
+  background: rgba(255, 255, 255, 0.29);
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+backdrop-filter: blur(8.9px);
+-webkit-backdrop-filter: blur(8.9px);
 }

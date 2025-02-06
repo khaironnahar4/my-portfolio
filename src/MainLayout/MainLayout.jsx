@@ -5,9 +5,12 @@ import Footer from "../SharedComponents/Footer"
 
 function MainLayout() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto outfit">
         {/* navbar */}
+        <div className="relative">
+
         <Navbar></Navbar>
+        </div>
 
         {/* outlet */}
         <Outlet></Outlet>

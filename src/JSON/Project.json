@@ -1,30 +1,38 @@
 [
     {
-      "id": 1,
-      "image": "https://via.placeholder.com/400x300",
+      "image": "https://i.ibb.co.com/nN751LNQ/Elearn.jpg",
       "projectName": "E-Learn",
-      "description": "Developed a full-stack online study collaboration platform where tutors can post sessions, which are approved and priced by admins. Students can enroll in sessions, with free sessions requiring no payment and paid sessions routing students through Stripe for secure payment processing. Tutors and admins can upload, edit, and delete session materials, which are accessible to enrolled students. Students can take, edit, and delete notes, which are displayed on their personalized dashboards.",
-      "link": "https://example.com/project1"
+      "description": "This project focuses on creating a platform to connect students, tutors, and administrators, enabling streamlined study session scheduling, resource sharing, and user management. The goal is to enhance collaboration, improve access to study materials, and provide an effective management system for educational activities.",
+      "link": "https://online-tech-8af27.web.app/",
+      "category": "Web Development"
     },
     {
-      "id": 2,
-      "image": "https://via.placeholder.com/400x300",
-      "projectName": "Project 2",
-      "description": "A task management app with real-time collaboration features.",
-      "link": "https://example.com/project2"
+      "image": "https://i.ibb.co.com/sdP8g6K8/blogshpere.jpg",
+      "projectName": "Blog Shpere",
+      "description": "A fully functional Blogging Website where users can create, update, and read blogs. This project integrates both front-end and back-end technologies to provide a seamless user experience. Authentication is handled via Firebase, and the back-end is built with MongoDB and Express.js.",
+      "link": "https://blog-sphere-64805.web.app/",
+      "category": "Web Development"
     },
     {
-      "id": 3,
-      "image": "https://via.placeholder.com/400x300",
-      "projectName": "Project 3",
-      "description": "A portfolio website showcasing my skills and projects.",
-      "link": "https://example.com/project3"
+      "image": "https://i.ibb.co.com/8LDwHRSf/gameverse.jpg",
+      "projectName": "Game Verse",
+      "description": "GameVerse is a comprehensive game review website built with modern web technologies. Users can explore game reviews, share their thoughts, and manage personalized features like watchlists. The platform includes secure authentication, private routes, and dynamic functionalities for a seamless user experience.",
+      "link": "https://lighthearted-kleicha-b231cd.netlify.app",
+      "category": "Web Development"
     },
     {
-      "id": 4,
-      "image": "https://via.placeholder.com/400x300",
-      "projectName": "Project 4",
-      "description": "A blog platform with user authentication and CRUD functionality.",
-      "link": "https://example.com/project4"
+      "image": "https://i.ibb.co.com/R4P6VSFT/gadget-Heaven.jpg",
+      "projectName": "Gadget Haven",
+      "description": "GadgetHaven is a responsive e-commerce platform designed for purchasing gadgets online. The site allows users to browse products, add items to a cart or wishlist, and filter products based on categories and price ranges. The platform ensures a smooth and reliable shopping experience with functionalities built using React and efficient state management.",
+      "link": "https://fastidious-platypus-8b8ea7.netlify.app/",
+      "category": "Web Development"
+    },
+    {
+     
+      "image": "https://i.ibb.co.com/Tx7vBnz4/get-Coupon.jpg",
+      "projectName": "Get Coupon",
+      "description": "This project is a simple Coupon Collecting Application designed to help users easily find and use discount coupons for popular e-commerce shops in Bangladesh.",
+      "link": "https://jovial-meringue-fa75a4.netlify.app/",
+      "category": "Web Development"
     }
   ]
