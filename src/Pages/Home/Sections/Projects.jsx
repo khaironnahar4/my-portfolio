@@ -2,13 +2,20 @@ import { Link } from "react-router-dom";
 import projects from "../../../JSON/Project.json";
 import { FaLocationArrow } from "react-icons/fa";
 import SectionHeader from "../../../Components/SectionHeader";
+import { motion } from "motion/react";
 
 function Projects() {
   // console.log(project);
 
   return (
-    <section id="projects" className="lg:py-20 md:py-14 py-12">
-       <SectionHeader
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, delay: 0.3 }}
+      id="projects"
+      className="lg:py-20 md:py-14 py-12"
+    >
+      <SectionHeader
         heading="My Projects"
         subHeading="See All Of My Recent Work"
         text="Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development."
@@ -28,29 +35,38 @@ function Projects() {
             //   </div>
             // </div>
 
-            <div key={idx} className="card w-full shadow-xl">
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9 }}
+              whileHover={{scale: 1.05}}
+              key={idx}
+              className="card w-full shadow-xl"
+            >
               <figure>
-                <img
-                  src={project.image}
-                  alt={`${project.projectName} image`}
-                />
+                <img src={project.image} alt={`${project.projectName} image`} />
               </figure>
               <div className="card-body flex-row justify-between items-start">
                 <div>
-                <h2 className="card-title">{project.projectName}</h2>
-                <p>{project.category}</p>
+                  <h2 className="card-title">{project.projectName}</h2>
+                  <p>{project.category}</p>
                 </div>
                 <div className="card-actions justify-start">
-                  <Link to={project.link} target="_blank" 
-                  className="p-3 border hover:border-white rounded-full hover:bg-[#6FB72F] bg-white
-                   hover:text-white text-[#6FB72F] border-gray-400 text-xl "><FaLocationArrow /></Link>
+                  <Link
+                    to={project.link}
+                    target="_blank"
+                    className="p-3 border hover:border-white rounded-full hover:bg-[#6FB72F] bg-white
+                   hover:text-white text-[#6FB72F] border-gray-400 text-xl "
+                  >
+                    <FaLocationArrow />
+                  </Link>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
