@@ -36,8 +36,8 @@ function Projects() {
             // </div>
 
             <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50, scale: 0.6 }}
+              whileInView={{ opacity: 1, y: 0 , scale: 1}}
               transition={{ duration: 0.9 }}
               whileHover={{scale: 1.05}}
               key={idx}
